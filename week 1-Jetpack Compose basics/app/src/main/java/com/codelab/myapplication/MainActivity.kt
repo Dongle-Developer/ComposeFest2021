@@ -1,4 +1,4 @@
-package com.codelab.basiccodelab
+package com.codelab.myapplication
 
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
 import android.os.Bundle
@@ -136,9 +136,9 @@ private fun CardContent(name: String) {
             if (expanded) {
                 Text(
                     text = (
-                        "Composem ipsum color sit lazy, " +
-                            "padding theme elit, sed do bouncy. "
-                        ).repeat(4),
+                            "Composem ipsum color sit lazy, " +
+                                    "padding theme elit, sed do bouncy. "
+                            ).repeat(4),
                 )
             }
         }
